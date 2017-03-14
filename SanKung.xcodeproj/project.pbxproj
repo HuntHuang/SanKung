@@ -13,8 +13,6 @@
 		E02D13C01CCF660F006FF7D0 /* PlayViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E02D13BE1CCF660F006FF7D0 /* PlayViewController.xib */; };
 		E07DCD8F1C96C1FA00BC18F1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E07DCD8E1C96C1FA00BC18F1 /* AppDelegate.m */; };
 		E07DCD9A1C96C1FA00BC18F1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E07DCD981C96C1FA00BC18F1 /* LaunchScreen.storyboard */; };
-		E07DCDA51C96C1FA00BC18F1 /* SanKungTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E07DCDA41C96C1FA00BC18F1 /* SanKungTests.m */; };
-		E07DCDB01C96C1FA00BC18F1 /* SanKungUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E07DCDAF1C96C1FA00BC18F1 /* SanKungUITests.m */; };
 		E07DCDC01C96C28800BC18F1 /* HomePageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E07DCDBE1C96C28800BC18F1 /* HomePageViewController.m */; };
 		E07DCDC11C96C28800BC18F1 /* HomePageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E07DCDBF1C96C28800BC18F1 /* HomePageViewController.xib */; };
 		E07DCFAF1C96CFB800BC18F1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E07DCFA01C96CFB800BC18F1 /* Assets.xcassets */; };
@@ -106,11 +104,7 @@
 		E07DCD8E1C96C1FA00BC18F1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		E07DCD991C96C1FA00BC18F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E07DCDA01C96C1FA00BC18F1 /* SanKungTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SanKungTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		E07DCDA41C96C1FA00BC18F1 /* SanKungTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SanKungTests.m; sourceTree = "<group>"; };
-		E07DCDA61C96C1FA00BC18F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E07DCDAB1C96C1FA00BC18F1 /* SanKungUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SanKungUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		E07DCDAF1C96C1FA00BC18F1 /* SanKungUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SanKungUITests.m; sourceTree = "<group>"; };
-		E07DCDB11C96C1FA00BC18F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E07DCDBD1C96C28800BC18F1 /* HomePageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomePageViewController.h; sourceTree = "<group>"; };
 		E07DCDBE1C96C28800BC18F1 /* HomePageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomePageViewController.m; sourceTree = "<group>"; };
 		E07DCDBF1C96C28800BC18F1 /* HomePageViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomePageViewController.xib; sourceTree = "<group>"; };
@@ -209,8 +203,6 @@
 			isa = PBXGroup;
 			children = (
 				E07DCD891C96C1FA00BC18F1 /* SanKung */,
-				E07DCDA31C96C1FA00BC18F1 /* SanKungTests */,
-				E07DCDAE1C96C1FA00BC18F1 /* SanKungUITests */,
 				E07DCD881C96C1FA00BC18F1 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -255,24 +247,6 @@
 				E07DCFA01C96CFB800BC18F1 /* Assets.xcassets */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		E07DCDA31C96C1FA00BC18F1 /* SanKungTests */ = {
-			isa = PBXGroup;
-			children = (
-				E07DCDA41C96C1FA00BC18F1 /* SanKungTests.m */,
-				E07DCDA61C96C1FA00BC18F1 /* Info.plist */,
-			);
-			path = SanKungTests;
-			sourceTree = "<group>";
-		};
-		E07DCDAE1C96C1FA00BC18F1 /* SanKungUITests */ = {
-			isa = PBXGroup;
-			children = (
-				E07DCDAF1C96C1FA00BC18F1 /* SanKungUITests.m */,
-				E07DCDB11C96C1FA00BC18F1 /* Info.plist */,
-			);
-			path = SanKungUITests;
 			sourceTree = "<group>";
 		};
 		E07DCFA11C96CFB800BC18F1 /* GCD */ = {
@@ -565,7 +539,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E07DCDA51C96C1FA00BC18F1 /* SanKungTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -573,7 +546,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E07DCDB01C96C1FA00BC18F1 /* SanKungUITests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
